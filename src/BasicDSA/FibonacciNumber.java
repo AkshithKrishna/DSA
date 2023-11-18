@@ -5,10 +5,11 @@ public class FibonacciNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n = 8;
-		fibonacci(n);
+		FibonacciNumber fib=new FibonacciNumber();
+		fib.fibonacci(n);
 	}
 
-	public static void fibonacci(int n) {
+	public void fibonacci(int n) {
 		int sum = 0;
 		int a = 0, b = 1;
 		System.out.print(a);
